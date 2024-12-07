@@ -56,7 +56,7 @@ const Testimonial = () => {
     {/* Image on the Left */}
     <div className="flex-shrink-0">
       <img
-        src={testimonialImage3}
+        src={testimonialImage}
         alt="Customer Testimonial"
         className="object-cover"
       />

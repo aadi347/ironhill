@@ -5,10 +5,10 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-black">
-      <div className="container mx-auto flex items-center justify-between py-4">
+    <nav className="bg-white border-b border-black fixed top-0 w-full z-50">
+      <div className="container mx-auto flex items-center justify-between py-4 px-64">
         {/* Left Section */}
-        <div className="hidden lg:flex gap-8">
+        <div className="hidden lg:flex gap-14">
           <a
             href="#"
             className="text-lg font-bold uppercase tracking-wider text-black hover:underline hover:decoration-2 hover:decoration-orange-400"
@@ -28,7 +28,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Iron Hill Logo"
-            className="h-16 w-auto"
+            className="h-20 w-auto"
           />
         </div>
 

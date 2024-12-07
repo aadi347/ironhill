@@ -23,8 +23,8 @@ const Calender = () => {
             visit Ironhill outlets anywhere in India, as part of the centralised
             reward scheme.
           </p>
-          <div className="mt-1 w-60 h-60">
-            <img src={reward} alt="flags" />
+          <div className="mt-1 relative top-24 left-44">
+            <img src="https://ironhillindia.com/images/reward-program-flag.svg" alt="flags" />
           </div>
           <p className="mt-10">COMING SOON...</p>
         </div>
