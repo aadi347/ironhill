@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BrewHouses from '../components/BrewHouses';
 import Sold from '../components/sold';
 import Testimonial from '../components/Testimonials';
+import DrinkFood from '../components/Drink&Food';
+import Calender from '../components/calender';
 
 
 const Home = () => {
@@ -35,7 +37,8 @@ const Home = () => {
           <BrewHouses />
           <Sold />
           <Testimonial />
-   
+          <DrinkFood />
+          <Calender />
         </section>
     )
 }
